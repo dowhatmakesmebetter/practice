@@ -2,7 +2,7 @@ package algorithm;
 
 import java.util.HashMap;
 import java.util.Map;
-
+//using the space to exchange the time ,hashmap store the data and then the complement can be find quickly
 public class FindRepeatNum {
 
     public static int[] twoSum(int[] nums, int target) {
@@ -22,7 +22,7 @@ public class FindRepeatNum {
         nums = twoSum(nums,6);
     }
 
-//以空间换时间通过hashmap存储相关值使得直接查询hashmap即可
+
 
 
 }
